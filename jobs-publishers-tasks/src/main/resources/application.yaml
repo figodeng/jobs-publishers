@@ -1,0 +1,4 @@
+jobs:
+  publishers:
+    skyscanner:
+      url: https://boards-api.greenhouse.io/v1/boards/skyscanner/jobs?content=true

@@ -1,2 +1,10 @@
-package figo.extenal.jobs.official.services.dto;public class ByteDanceJobList {
+package figo.extenal.jobs.official.services.dto;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class ByteDanceJobList {
+    private List<ByteDanceJob> job_post_list;
 }

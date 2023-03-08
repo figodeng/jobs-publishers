@@ -2,6 +2,7 @@ package figo.extenal.jobs.official.services.dto;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import figo.extenal.jobs.official.constants.CompanyNameConstants;
+import figo.extenal.jobs.official.services.JobConverter;
 import figo.external.jobs.core.models.Job;
 import lombok.Data;
 
@@ -9,7 +10,7 @@ import java.util.Date;
 import java.util.Map;
 
 @Data
-public class SkyScannerJob {
+public class SkyScannerJob implements JobConverter {
     private String absolute_url;
 
     private Map<String, String> location;

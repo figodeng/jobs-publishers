@@ -2,3 +2,11 @@ jobs:
   publishers:
     skyscanner:
       url: https://boards-api.greenhouse.io/v1/boards/skyscanner/jobs?content=true
+    bytedance:
+      url: https://jobs.bytedance.com/api/v1/referral/sharing/search
+      token: NTsxNjc3NjY3Mzg1MDE3OzY5MDc0MDk3NTcxMTIzNzA3MDI7NzIwNTUyNjE0MzE1MDE2NDI4MQ
+      keyword: java
+      start-date: 2022-11-01
+      limit: 1000
+
+#debug: true

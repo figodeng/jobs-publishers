@@ -13,12 +13,4 @@ import java.util.stream.Collectors;
 @Data
 public class SkyScannerJobList {
     private List<SkyScannerJob> jobs;
-
-    public List<Job> convert(Predicate<SkyScannerJob> filter) {
-        if (this.jobs == null || this.jobs.isEmpty()) return Arrays.asList();
-        return this.jobs.stream()
-                .filter(filter)
-                .map(SkyScannerJob::convert)
-                .collect(Collectors.toList());
-    }
 }

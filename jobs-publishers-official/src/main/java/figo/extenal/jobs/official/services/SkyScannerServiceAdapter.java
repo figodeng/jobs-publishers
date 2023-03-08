@@ -30,6 +30,10 @@ public class SkyScannerServiceDispatcher implements PublishService {
         return CompanyNameConstants.SkyScanner;
     }
 
+    /**
+     * 对象适配器模式：把SkyScanner的数据结构适配成标准的数据结构
+     * @return
+     */
     public List<Job> getJobs() {
         SkyScannerJobList jobList = skyScannerService.getJobs();
 

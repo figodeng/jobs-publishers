@@ -33,11 +33,12 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("# jobs-publishers");
         for (PublishService publishService : publishServices) {
-            System.out.println(String.format("------------- %s -------------", publishService.getPublisher()));
+            System.out.println(String.format("## ------------- %s -------------", publishService.getPublisher()));
             List<Job> jobs = publishService.getJobs();
             for (Job job : jobs) {
-                System.out.println(String.format("%s,%s,%s", job.getTitle(), format.format(job.getPublishDate()), job.getUrl()));
+                System.out.println(String.format(">%s,%s,%s \\", job.getTitle(), format.format(job.getPublishDate()), job.getUrl()));
             }
         }
     }

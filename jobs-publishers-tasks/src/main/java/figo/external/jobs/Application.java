@@ -37,8 +37,9 @@ public class Application implements CommandLineRunner {
         for (PublishService publishService : publishServices) {
             System.out.println(String.format("## ------------- %s -------------", publishService.getPublisher()));
             List<Job> jobs = publishService.getJobs();
+            int i = 0;
             for (Job job : jobs) {
-                System.out.println(String.format(">%s,%s,%s \\", job.getTitle(), format.format(job.getPublishDate()), job.getUrl()));
+                System.out.println(String.format(">%s. %s,%s,%s \\", ++i, job.getTitle(), format.format(job.getPublishDate()), job.getUrl()));
             }
         }
     }

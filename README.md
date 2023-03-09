@@ -1,5 +1,5 @@
 # jobs-publishers
-## ------------- Byte Dance -------------
+Byte Dance | [SkyScanner](jobs/README-Skyscanner.md)
 >1. 后端交付工程师-飞书零代码/低代码业务-D7200,20230213,https://jobs.bytedance.com/referral/pc/position/7199528515247049015/detail \
 >2. 前端交付工程师-飞书零代码/低代码业务-J7596,20230213,https://jobs.bytedance.com/referral/pc/position/7199528446975035706/detail \
 >3. WEB端测试开发工程师-飞书-C6790,20230213,https://jobs.bytedance.com/referral/pc/position/7199470852281813304/detail \
@@ -31,12 +31,3 @@
 >29. 前端研发架构师-供应链-N7933,20221102,https://jobs.bytedance.com/referral/pc/position/7161333173921745165/detail \
 >30. 前端开发负责人-抖音用户体验-U0201,20221101,https://jobs.bytedance.com/referral/pc/position/7160992502161787167/detail \
 >31. 运维平台高级研发工程师-O0440,20221101,https://jobs.bytedance.com/referral/pc/position/7160889399298820360/detail \
-## ------------- SkyScanner -------------
->1. Sr. Data Scientist （Lead),20230308,http://www.skyscanner.net/jobs/job/4564859?gh_jid=4564859 \
->2. Software Engineer (New Graduate),20230307,http://www.skyscanner.net/jobs/job/4853108?gh_jid=4853108 \
->3. Sr. Product Manager ,20230306,http://www.skyscanner.net/jobs/job/4756999?gh_jid=4756999 \
->4. Sr. Android Engineer,20230306,http://www.skyscanner.net/jobs/job/4812669?gh_jid=4812669 \
->5. Principal Software Engineer,20230306,http://www.skyscanner.net/jobs/job/4728469?gh_jid=4728469 \
->6. Senior Backend Engineer,20230306,http://www.skyscanner.net/jobs/job/4858826?gh_jid=4858826 \
->7. Engineering Manager,20230223,http://www.skyscanner.net/jobs/job/4869763?gh_jid=4869763 \
->8. Sr. Data Engineer,20230223,http://www.skyscanner.net/jobs/job/4869750?gh_jid=4869750 \

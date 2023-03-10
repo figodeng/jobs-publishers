@@ -46,5 +46,6 @@ public class RecruitmentDispatchService {
         for (Future future : futures) {
             future.get();
         }
+        threadPoolExecutor.shutdown();
     }
 }

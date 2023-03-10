@@ -1,16 +1,15 @@
-package figo.extenal.jobs.official.services;
+package figo.external.jobs.official.services;
 
-import figo.extenal.jobs.official.constants.CompanyNameConstants;
-import figo.extenal.jobs.official.constants.SkyScannerConstants;
-import figo.extenal.jobs.official.services.dto.SkyScannerJob;
-import figo.extenal.jobs.official.services.dto.SkyScannerJobList;
+import figo.external.jobs.official.constants.CompanyNameConstants;
+import figo.external.jobs.official.constants.SkyScannerConstants;
+import figo.external.jobs.official.services.dto.SkyScannerJob;
+import figo.external.jobs.official.services.dto.SkyScannerJobList;
 import figo.external.jobs.core.models.Job;
 import figo.external.jobs.core.services.PublishService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 @Service

@@ -1,4 +1,4 @@
-package figo.extenal.jobs.official.services.dto;
+package figo.external.jobs.official.services.dto;
 
 import lombok.Data;
 

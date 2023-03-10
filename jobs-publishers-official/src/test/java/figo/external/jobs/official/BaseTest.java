@@ -1,4 +1,4 @@
-package figo.extenal.jobs.official;
+package figo.external.jobs.official;
 
 
 import org.junit.jupiter.api.extension.ExtendWith;

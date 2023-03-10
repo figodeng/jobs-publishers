@@ -1,7 +1,7 @@
-package figo.extenal.jobs.official.services;
+package figo.external.jobs.official.services;
 
-import figo.extenal.jobs.official.constants.CompanyNameConstants;
-import figo.extenal.jobs.official.services.dto.ByteDanceJob;
+import figo.external.jobs.official.constants.CompanyNameConstants;
+import figo.external.jobs.official.services.dto.ByteDanceJob;
 import figo.external.jobs.core.models.Job;
 import figo.external.jobs.core.services.PublishService;
 import lombok.SneakyThrows;
@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 

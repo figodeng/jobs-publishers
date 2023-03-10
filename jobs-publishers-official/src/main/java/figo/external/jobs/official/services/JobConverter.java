@@ -1,4 +1,4 @@
-package figo.extenal.jobs.official.services;
+package figo.external.jobs.official.services;
 
 import figo.external.jobs.core.models.Job;
 

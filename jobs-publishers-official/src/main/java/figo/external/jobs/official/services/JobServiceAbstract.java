@@ -1,7 +1,5 @@
-package figo.extenal.jobs.official.services;
+package figo.external.jobs.official.services;
 
-import figo.extenal.jobs.official.constants.SkyScannerConstants;
-import figo.extenal.jobs.official.services.dto.SkyScannerJob;
 import figo.external.jobs.core.models.Job;
 
 import java.util.Arrays;

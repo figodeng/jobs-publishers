@@ -1,10 +1,9 @@
-package figo.extenal.jobs.official.services;
+package figo.external.jobs.official.services;
 
-import com.fasterxml.jackson.core.JsonFactoryBuilder;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import figo.extenal.jobs.official.services.dto.ByteDanceJob;
-import figo.extenal.jobs.official.services.dto.ByteDanceRequest;
-import figo.extenal.jobs.official.services.dto.ByteDanceResponse;
+import figo.external.jobs.official.services.dto.ByteDanceJob;
+import figo.external.jobs.official.services.dto.ByteDanceRequest;
+import figo.external.jobs.official.services.dto.ByteDanceResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.*;

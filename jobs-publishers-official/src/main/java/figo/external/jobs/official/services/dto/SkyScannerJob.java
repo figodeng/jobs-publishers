@@ -1,8 +1,7 @@
-package figo.extenal.jobs.official.services.dto;
+package figo.external.jobs.official.services.dto;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import figo.extenal.jobs.official.constants.CompanyNameConstants;
-import figo.extenal.jobs.official.services.JobConverter;
+import figo.external.jobs.official.constants.CompanyNameConstants;
+import figo.external.jobs.official.services.JobConverter;
 import figo.external.jobs.core.models.Job;
 import lombok.Data;
 

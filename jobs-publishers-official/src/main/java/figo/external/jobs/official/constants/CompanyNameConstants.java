@@ -1,4 +1,4 @@
-package figo.extenal.jobs.official.constants;
+package figo.external.jobs.official.constants;
 
 public class CompanyNameConstants {
     public static String SkyScanner = "SkyScanner";

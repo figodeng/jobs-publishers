@@ -1,27 +1,27 @@
 package figo.external.jobs;
 
-import figo.external.jobs.core.models.Job;
+import figo.external.jobs.core.models.Recruitment;
 import figo.external.jobs.core.services.PublishService;
+import figo.external.jobs.core.services.RecruitmentDispatchService;
+import figo.external.jobs.core.services.SubscribeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-import java.text.SimpleDateFormat;
-import java.text.spi.DateFormatProvider;
 import java.util.List;
 
 @SpringBootApplication(scanBasePackages = {
-        "figo.extenal.jobs"
+        "figo.external.jobs"
 })
 @EnableScheduling
 public class Application implements CommandLineRunner {
     @Autowired
     private List<PublishService> publishServices;
+    @Autowired
+    private RecruitmentDispatchService dispatchService;
 
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(Application.class);
@@ -29,18 +29,10 @@ public class Application implements CommandLineRunner {
         application.run(args);
     }
 
-    private static final SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
-
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("# jobs-publishers");
         for (PublishService publishService : publishServices) {
-            System.out.println(String.format("## ------------- %s -------------", publishService.getPublisher()));
-            List<Job> jobs = publishService.getJobs();
-            int i = 0;
-            for (Job job : jobs) {
-                System.out.println(String.format(">%s. %s,%s,%s \\", ++i, job.getTitle(), format.format(job.getPublishDate()), job.getUrl()));
-            }
+            dispatchService.update(new Recruitment(publishService.getPublisher(), publishService.getJobs()));
         }
     }
 }

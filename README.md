@@ -1,2 +1,2 @@
 # jobs-publishers 
-[ByteDance](jobs/ByteDance.md) | [SkyScanner](jobs/SkyScanner.md)
+[Tencent](jobs/Tencent.md) | [ByteDance](jobs/ByteDance.md) | [SkyScanner](jobs/SkyScanner.md)

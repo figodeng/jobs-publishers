@@ -10,8 +10,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.util.StopWatch;
 
+import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.*;
 
 @SpringBootApplication(scanBasePackages = {
         "figo.external.jobs"
@@ -31,8 +34,33 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        for (PublishService publishService : publishServices) {
-            dispatchService.update(new Recruitment(publishService.getPublisher(), publishService.getJobs()));
+        long startTime = System.nanoTime();
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2,
+                4,
+                10,
+                TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(10));
+        Future[] futures = new Future[publishServices.size()];
+        for (int i = 0; i < publishServices.size(); i++) {
+            PublishService finalPublishService = publishServices.get(i);
+            futures[i] = threadPoolExecutor.submit(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        dispatchService.update(new Recruitment(finalPublishService.getPublisher(), finalPublishService.getJobs()));
+                    } catch (ExecutionException e) {
+                        throw new RuntimeException(e);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            });
         }
+        for (Future future : futures) {
+            future.get();
+        }
+        threadPoolExecutor.shutdown();
+        Duration timeTakenToGetJobs = Duration.ofNanos(System.nanoTime() - startTime);
+        System.out.println(String.format("get jobs takes %s s", timeTakenToGetJobs.toSeconds()));
     }
 }

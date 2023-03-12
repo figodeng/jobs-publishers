@@ -26,4 +26,8 @@ public class JobServiceAbstract<T extends JobConverter> {
     protected List<Job> convert(List<T> jobList, Predicate<T> filter) {
         return convert(jobList, filter, p -> true);
     }
+
+    protected List<Job> convert(List<T> jobList) {
+        return convert(jobList, p -> true);
+    }
 }

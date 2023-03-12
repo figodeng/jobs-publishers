@@ -4,4 +4,5 @@ public class CompanyNameConstants {
     public static String SkyScanner = "SkyScanner";
     public static String ByteDance = "ByteDance";
     public static String Tencent = "Tencent";
+    public static String Pingan = "Pingan";
 }

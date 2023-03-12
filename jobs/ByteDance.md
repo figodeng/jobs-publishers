@@ -1,5 +1,5 @@
 # jobs-publishers 
-[Tencent](Tencent.md) | ByteDance | [SkyScanner](SkyScanner.md)
+[Tencent](Tencent.md) | ByteDance | [SkyScanner](SkyScanner.md) | [Pingan](Pingan.md)
 >1. 后端交付工程师-飞书零代码/低代码业务-D7200,20230213,https://jobs.bytedance.com/referral/pc/position/7199528515247049015/detail \ 
 >2. 前端交付工程师-飞书零代码/低代码业务-J7596,20230213,https://jobs.bytedance.com/referral/pc/position/7199528446975035706/detail \ 
 >3. WEB端测试开发工程师-飞书-C6790,20230213,https://jobs.bytedance.com/referral/pc/position/7199470852281813304/detail \ 

@@ -8,4 +8,6 @@ import lombok.Data;
 public class TencentResponse {
     @JsonProperty("Data")
     private TencentJobs data;
+    @JsonProperty("Code")
+    private int code;
 }

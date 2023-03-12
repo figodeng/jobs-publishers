@@ -10,5 +10,6 @@ jobs:
       limit: 1000
     tencent:
       url: https://careers.tencent.com/tencentcareer/api/post/Query?timestamp=1678439614214&countryId&cityId=1&bgIds&productId&categoryId=40001001,40001002,40001003,40001004,40001005,40001006&parentCategoryId&attrId=1&keyword=java&pageIndex=1&pageSize=1000&language=zh-cn&area=cn
-
+    pingan:
+      url: https://talent.pingan.com/zztj-recruit-talent-webserver/rctt/candidate/position/getPositionList
 #debug: true

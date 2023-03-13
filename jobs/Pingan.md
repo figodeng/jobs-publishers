@@ -1,7 +1,7 @@
 # jobs-publishers 
-[Tencent](Tencent.md) | [ByteDance](ByteDance.md) | [SkyScanner](SkyScanner.md) | Pingan
->1. 资深Java开发工程师-平安科技,20230310,https://talent.pingan.com/recruit/position.html?positionId=9CBDAA0E3C5145158FA631F5DD0BFD59 \ 
->2. 资深Java开发工程师-平安科技,20230310,https://talent.pingan.com/recruit/position.html?positionId=684EF93D84794E3592D313B7744B4A68 \ 
+[Tencent](Tencent.md) | [Alibaba](Alibaba.md) | [ByteDance](ByteDance.md) | [SkyScanner](SkyScanner.md) | Pingan
+>1. 资深Java开发工程师-平安科技,20230313,https://talent.pingan.com/recruit/position.html?positionId=684EF93D84794E3592D313B7744B4A68 \ 
+>2. 资深Java开发工程师-平安科技,20230310,https://talent.pingan.com/recruit/position.html?positionId=9CBDAA0E3C5145158FA631F5DD0BFD59 \ 
 >3. 高级云网络工程师-平安科技,20230309,https://talent.pingan.com/recruit/position.html?positionId=C8C3C8CBDE8E4CF980BC559AF14E0CE8 \ 
 >4. 资深Java开发工程师-平安科技,20230303,https://talent.pingan.com/recruit/position.html?positionId=474863D9EDCC45B388CB486674D3E10E \ 
 >5. 资深Java开发工程师-平安科技,20230302,https://talent.pingan.com/recruit/position.html?positionId=D24847D1DAEB4659B4B7BAE64DA6E2A6 \ 

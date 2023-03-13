@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SkyScannerServiceTest extends BaseTest {
     @Autowired
-    private PublishService scannerService;
+    private SkyScannerServiceAdapter scannerService;
 
     @Test
     public void test_getJobs() {

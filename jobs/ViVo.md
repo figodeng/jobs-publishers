@@ -1,48 +1,48 @@
 # jobs-publishers 
 [Tencent](Tencent.md) | [Alibaba](Alibaba.md) | [ByteDance](ByteDance.md) | ViVo | [SkyScanner](SkyScanner.md) | [Pingan](Pingan.md)
->1. 高级后端工程师,20230313,https://career.oppo.com/pc/post/detail?positionId=%s1635102826068119554 \ 
->2. 高级应用工程师,20230313,https://career.oppo.com/pc/post/detail?positionId=%s1635173245148139522 \ 
->3. 高级前端工程师,20230313,https://career.oppo.com/pc/post/detail?positionId=%s1635173762762887169 \ 
->4. 高级影像PM,20230306,https://career.oppo.com/pc/post/detail?positionId=%s1632553518570729473 \ 
->5. 高级SRE工程师,20230301,https://career.oppo.com/pc/post/detail?positionId=%s1563450993533104129 \ 
->6. 高级应用工程师,20230228,https://career.oppo.com/pc/post/detail?positionId=%s1563383865819049986 \ 
->7. 高级屏显算法工程师,20230224,https://career.oppo.com/pc/post/detail?positionId=%s1587991430687199234 \ 
->8. 通信协议专家,20230223,https://career.oppo.com/pc/post/detail?positionId=%s1628645690987343873 \ 
->9. 高级前端工程师,20230222,https://career.oppo.com/pc/post/detail?positionId=%s1585890557546795010 \ 
->10. 高级底层软件工程师,20230221,https://career.oppo.com/pc/post/detail?positionId=%s1563423632980815874 \ 
->11. 高级机器学习算法工程师,20230221,https://career.oppo.com/pc/post/detail?positionId=%s1627935032448778242 \ 
->12. 数仓专家,20230220,https://career.oppo.com/pc/post/detail?positionId=%s1627473884099440642 \ 
->13. 高级后端工程师,20230220,https://career.oppo.com/pc/post/detail?positionId=%s1627500388786487297 \ 
->14. 高级应用工程师,20230217,https://career.oppo.com/pc/post/detail?positionId=%s1626464226011082753 \ 
->15. 高级底层软件工程师,20230216,https://career.oppo.com/pc/post/detail?positionId=%s1626027200338030594 \ 
->16. 高级前端工程师,20230213,https://career.oppo.com/pc/post/detail?positionId=%s1615908349321990145 \ 
->17. 高级应用工程师,20230209,https://career.oppo.com/pc/post/detail?positionId=%s1565155332073099266 \ 
->18. 高级应用工程师,20230209,https://career.oppo.com/pc/post/detail?positionId=%s1623521910035378177 \ 
->19. 高级影像效果工程师,20230208,https://career.oppo.com/pc/post/detail?positionId=%s1574591079511433217 \ 
->20. 高级底层软件工程师,20230207,https://career.oppo.com/pc/post/detail?positionId=%s1622794628682313730 \ 
->21. 高级系统工程师,20230206,https://career.oppo.com/pc/post/detail?positionId=%s1622407218802851841 \ 
->22. 高级软件测试工程师,20230206,https://career.oppo.com/pc/post/detail?positionId=%s1622439311989669890 \ 
->23. 高级系统工程师,20230202,https://career.oppo.com/pc/post/detail?positionId=%s1563444380286009345 \ 
->24. 高级数据分析工程师,20230201,https://career.oppo.com/pc/post/detail?positionId=%s1620727687813660674 \ 
->25. 高级产品运营经理,20230201,https://career.oppo.com/pc/post/detail?positionId=%s1620728588199849986 \ 
->26. 高级系统工程师,20230117,https://career.oppo.com/pc/post/detail?positionId=%s1615211529429835778 \ 
->27. 高级IT产品经理,20230113,https://career.oppo.com/pc/post/detail?positionId=%s1613709127277400066 \ 
->28. 音频工程师,20230111,https://career.oppo.com/pc/post/detail?positionId=%s1610520005764808705 \ 
->29. 高级通信协议工程师,20221229,https://career.oppo.com/pc/post/detail?positionId=%s1599714170763661313 \ 
->30. 高级算法工程师,20221229,https://career.oppo.com/pc/post/detail?positionId=%s1608353586237685761 \ 
->31. 多媒体系统工程师,20221227,https://career.oppo.com/pc/post/detail?positionId=%s1607543418894462978 \ 
->32. 高级软件PM,20221226,https://career.oppo.com/pc/post/detail?positionId=%s1563423584834400258 \ 
->33. 数据分析工程师,20221207,https://career.oppo.com/pc/post/detail?positionId=%s1600376373462695938 \ 
->34. 高级测试PM,20221206,https://career.oppo.com/pc/post/detail?positionId=%s1599960450780966914 \ 
->35. 测试架构师,20221206,https://career.oppo.com/pc/post/detail?positionId=%s1599959979394859009 \ 
->36. 高级软件测试工程师,20221206,https://career.oppo.com/pc/post/detail?positionId=%s1599959351255891969 \ 
->37. 高级后端工程师,20221206,https://career.oppo.com/pc/post/detail?positionId=%s1599971744813490177 \ 
->38. 高级影像效果工程师,20221202,https://career.oppo.com/pc/post/detail?positionId=%s1563444203974246401 \ 
->39. 高级系统工程师,20221130,https://career.oppo.com/pc/post/detail?positionId=%s1597785943650959361 \ 
->40. 应用工程师,20221130,https://career.oppo.com/pc/post/detail?positionId=%s1597838596906602498 \ 
->41. 底层软件工程师,20221129,https://career.oppo.com/pc/post/detail?positionId=%s1597404705330802689 \ 
->42. 高级后端工程师,20221129,https://career.oppo.com/pc/post/detail?positionId=%s1597473541639671810 \ 
->43. 影像效果工程师,20221128,https://career.oppo.com/pc/post/detail?positionId=%s1597094812253261826 \ 
->44. 高级IT开发工程师,20221118,https://career.oppo.com/pc/post/detail?positionId=%s1563471157174067202 \ 
->45. 高级CV算法工程师,20221115,https://career.oppo.com/pc/post/detail?positionId=%s1580906199795597313 \ 
->46. 影像算法工程师,20221102,https://career.oppo.com/pc/post/detail?positionId=%s1587638550814560257 \ 
+>1. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1635102826068119554" target="_blank">高级后端工程师</a>,20230313 
+>2. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1635173245148139522" target="_blank">高级应用工程师</a>,20230313 
+>3. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1635173762762887169" target="_blank">高级前端工程师</a>,20230313 
+>4. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1632553518570729473" target="_blank">高级影像PM</a>,20230306 
+>5. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1563450993533104129" target="_blank">高级SRE工程师</a>,20230301 
+>6. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1563383865819049986" target="_blank">高级应用工程师</a>,20230228 
+>7. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1587991430687199234" target="_blank">高级屏显算法工程师</a>,20230224 
+>8. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1628645690987343873" target="_blank">通信协议专家</a>,20230223 
+>9. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1585890557546795010" target="_blank">高级前端工程师</a>,20230222 
+>10. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1563423632980815874" target="_blank">高级底层软件工程师</a>,20230221 
+>11. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1627935032448778242" target="_blank">高级机器学习算法工程师</a>,20230221 
+>12. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1627473884099440642" target="_blank">数仓专家</a>,20230220 
+>13. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1627500388786487297" target="_blank">高级后端工程师</a>,20230220 
+>14. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1626464226011082753" target="_blank">高级应用工程师</a>,20230217 
+>15. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1626027200338030594" target="_blank">高级底层软件工程师</a>,20230216 
+>16. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1615908349321990145" target="_blank">高级前端工程师</a>,20230213 
+>17. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1565155332073099266" target="_blank">高级应用工程师</a>,20230209 
+>18. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1623521910035378177" target="_blank">高级应用工程师</a>,20230209 
+>19. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1574591079511433217" target="_blank">高级影像效果工程师</a>,20230208 
+>20. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1622794628682313730" target="_blank">高级底层软件工程师</a>,20230207 
+>21. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1622407218802851841" target="_blank">高级系统工程师</a>,20230206 
+>22. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1622439311989669890" target="_blank">高级软件测试工程师</a>,20230206 
+>23. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1563444380286009345" target="_blank">高级系统工程师</a>,20230202 
+>24. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1620727687813660674" target="_blank">高级数据分析工程师</a>,20230201 
+>25. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1620728588199849986" target="_blank">高级产品运营经理</a>,20230201 
+>26. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1615211529429835778" target="_blank">高级系统工程师</a>,20230117 
+>27. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1613709127277400066" target="_blank">高级IT产品经理</a>,20230113 
+>28. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1610520005764808705" target="_blank">音频工程师</a>,20230111 
+>29. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1599714170763661313" target="_blank">高级通信协议工程师</a>,20221229 
+>30. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1608353586237685761" target="_blank">高级算法工程师</a>,20221229 
+>31. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1607543418894462978" target="_blank">多媒体系统工程师</a>,20221227 
+>32. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1563423584834400258" target="_blank">高级软件PM</a>,20221226 
+>33. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1600376373462695938" target="_blank">数据分析工程师</a>,20221207 
+>34. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1599960450780966914" target="_blank">高级测试PM</a>,20221206 
+>35. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1599959979394859009" target="_blank">测试架构师</a>,20221206 
+>36. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1599959351255891969" target="_blank">高级软件测试工程师</a>,20221206 
+>37. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1599971744813490177" target="_blank">高级后端工程师</a>,20221206 
+>38. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1563444203974246401" target="_blank">高级影像效果工程师</a>,20221202 
+>39. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1597785943650959361" target="_blank">高级系统工程师</a>,20221130 
+>40. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1597838596906602498" target="_blank">应用工程师</a>,20221130 
+>41. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1597404705330802689" target="_blank">底层软件工程师</a>,20221129 
+>42. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1597473541639671810" target="_blank">高级后端工程师</a>,20221129 
+>43. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1597094812253261826" target="_blank">影像效果工程师</a>,20221128 
+>44. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1563471157174067202" target="_blank">高级IT开发工程师</a>,20221118 
+>45. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1580906199795597313" target="_blank">高级CV算法工程师</a>,20221115 
+>46. <a href="https://career.oppo.com/pc/post/detail?positionId=%s1587638550814560257" target="_blank">影像算法工程师</a>,20221102 

@@ -37,7 +37,7 @@ public class MarkdownService implements SubscribeService {
             writer.write(getLinks(recruitment.getPublisher()));
             int i = 0;
             for (Job job : recruitment.getJobs()) {
-                writer.write(String.format(">%s. %s,%s,%s \\ \n", ++i, job.getTitle(), format.format(job.getPublishDate()), job.getUrl()));
+                writer.write(String.format(">%s. <a href=\"%s\" target=\"_blank\">%s</a>,%s \n", ++i, job.getUrl(), job.getTitle(), format.format(job.getPublishDate())));
             }
         } catch (Exception e) {
             log.error("markdown error", e);

@@ -19,9 +19,6 @@ public class ByteDanceServiceAdapter extends JobServiceAbstract<ByteDanceJob> im
     private String keyword;
     @Value("${jobs.publishers.bytedance.limit}")
     private int limit;
-    @Value("${jobs.publishers.bytedance.start-date}")
-    private String startDate;
-    private final String DATE_FORMAT = "yyyy-MM-dd";
     @Autowired
     private ByteDanceRestService byteDanceService;
 
@@ -33,10 +30,7 @@ public class ByteDanceServiceAdapter extends JobServiceAbstract<ByteDanceJob> im
     @SneakyThrows
     @Override
     public List<Job> getJobs() {
-        SimpleDateFormat format = new SimpleDateFormat(DATE_FORMAT);
-        Date date = format.parse(startDate);
         return convert(byteDanceService.getJobs(keyword, 0, limit),
-                p -> p.containsKeyword(keyword),
-                q -> q.getPublishDate().compareTo(date) > 0);
+                p -> p.containsKeyword(keyword));
     }
 }
